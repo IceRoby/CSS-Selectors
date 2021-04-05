@@ -1,0 +1,43 @@
+/*****************************TAG SELECTOR*****************************/
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  color: brown;
+  font-size: 500%;
+  filter: blur(3px);
+}
+
+/*
+
+img {
+background-color: green;
+filter: blur(3px); 
+
+*/
+
+img:hover {
+    background-color: gold;
+}
+
+/*****************************CLASS SELECTOR*****************************/
+
+.broccoli {
+  background-color: red;
+  width: 5%;
+  border-radius: 20%;
+}
+
+.bacon {
+  background-color: green;
+  width: 5%;
+  border-radius: 20%;
+}
+
+/*****************************ID SELECTOR*****************************/
+
+#heading {
+    color: green;
+}
